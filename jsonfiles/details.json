@@ -1,0 +1,192 @@
+{
+    "message": "accurate",
+    "cod": "200",
+    "count": 5,
+    "list": [
+      {
+        "id": 2643743,
+        "name": "London",
+        "coord": {
+          "lat": 51.5085,
+          "lon": -0.1257
+        },
+        "main": {
+          "temp": 284.72,
+          "feels_like": 284.41,
+          "temp_min": 282.76,
+          "temp_max": 286.47,
+          "pressure": 1014,
+          "humidity": 95
+        },
+        "dt": 1628050154,
+        "wind": {
+          "speed": 0.51,
+          "deg": 0
+        },
+        "sys": {
+          "country": "GB"
+        },
+        "rain": null,
+        "snow": null,
+        "clouds": {
+          "all": 42
+        },
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+          }
+        ]
+      },
+      {
+        "id": 6058560,
+        "name": "London",
+        "coord": {
+          "lat": 42.9834,
+          "lon": -81.233
+        },
+        "main": {
+          "temp": 289.36,
+          "feels_like": 289.28,
+          "temp_min": 287.59,
+          "temp_max": 290.97,
+          "pressure": 1006,
+          "humidity": 86
+        },
+        "dt": 1628050145,
+        "wind": {
+          "speed": 0.92,
+          "deg": 263
+        },
+        "sys": {
+          "country": "CA"
+        },
+        "rain": null,
+        "snow": null,
+        "clouds": {
+          "all": 59
+        },
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ]
+      },
+      {
+        "id": 4517009,
+        "name": "London",
+        "coord": {
+          "lat": 39.8865,
+          "lon": -83.4483
+        },
+        "main": {
+          "temp": 289.82,
+          "feels_like": 289.29,
+          "temp_min": 286.49,
+          "temp_max": 292.25,
+          "pressure": 1019,
+          "humidity": 67
+        },
+        "dt": 1628050174,
+        "wind": {
+          "speed": 2.06,
+          "deg": 360
+        },
+        "sys": {
+          "country": "US"
+        },
+        "rain": null,
+        "snow": null,
+        "clouds": {
+          "all": 1
+        },
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+          }
+        ]
+      },
+      {
+        "id": 4298960,
+        "name": "London",
+        "coord": {
+          "lat": 37.129,
+          "lon": -84.0833
+        },
+        "main": {
+          "temp": 292.68,
+          "feels_like": 292.59,
+          "temp_min": 290.34,
+          "temp_max": 293.06,
+          "pressure": 1017,
+          "humidity": 73
+        },
+        "dt": 1628050173,
+        "wind": {
+          "speed": 1.54,
+          "deg": 10
+        },
+        "sys": {
+          "country": "US"
+        },
+        "rain": null,
+        "snow": null,
+        "clouds": {
+          "all": 1
+        },
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+          }
+        ]
+      },
+      {
+        "id": 5367815,
+        "name": "London",
+        "coord": {
+          "lat": 36.4761,
+          "lon": -119.4432
+        },
+        "main": {
+          "temp": 305.25,
+          "feels_like": 304.6,
+          "temp_min": 302.31,
+          "temp_max": 307.21,
+          "pressure": 1011,
+          "humidity": 34
+        },
+        "dt": 1628050383,
+        "wind": {
+          "speed": 2.06,
+          "deg": 270
+        },
+        "sys": {
+          "country": "US"
+        },
+        "rain": null,
+        "snow": null,
+        "clouds": {
+          "all": 1
+        },
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+          }
+        ]
+      }
+    ]
+  }

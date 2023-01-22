@@ -1,0 +1,60 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define IOS ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define endl "\n"
+#define rep(i,a,n) for(ll i=a;i<n;i++)
+#define per(i,n,a) for(ll i=n;i>a;i--)
+#define rep1(i,a,n) for(ll i=a;i<=n;i++)
+#define forit(it,x) for(auto it=(x).begin();it!=(x).end();++it)
+#define all(x) (x).begin(),(x).end()
+#define ull unsigned long long int
+#define ld long double
+#define prec(n) fixed<<setprecision(n)
+#define test ll t; cin>>t; while(t--)
+#define re return 0
+#define pb push_back
+#define pi 3.1415926535897932384626
+#define fi first
+#define se second
+#define eb emplace_back
+#define vll vector<ll>
+#define vi  vector<int>
+#define mpll map<ll,ll>
+#define pll pair<ll,ll>
+#define mp(x,y) make_pair(x,y)
+const ll mod=(ll)1e9+7;
+const ll maxi=(ll)1e18;
+bool SortbySec(const pair<ll,ll>&a,const pair<ll,ll>&b){
+    return (a.sec<b.sec);
+}
+ll MaxiCustomers(vector<pll>vp,ll n,vector<int>v){
+    ll count=0;
+    for(int i=0;i<n-1;i++){
+        if(vp[i+1].fi>=vp[i].se){
+            count+=p1i[i];
+        }
+    }    
+    return count;
+}
+int main(){
+    IOS;
+    test{
+        ll n,k;
+        cin>>n>>k;
+        int ar[n];
+        vector<pll>vp(n);
+        vi v(n);
+        rep(i,0,n){
+           ll si,f1i,p1i;
+           cin>>si>>f1i>>p1i;
+           vp[i].eb({si,f1i});
+           v.eb(p1i);
+        }
+        sort(vp.begin(),vp.end());
+        sort(vp.begin(),vp.end();SortbySec);
+        cout<<MaxiCustomers(vp,n,v)<<"\n";
+    }
+re;
+}

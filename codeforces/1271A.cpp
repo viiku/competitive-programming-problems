@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define IOS ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define endl "\n"
+#define REP(i,n) for(int i=0;i<n;i++)
+#define REPJ(j,n) for(int j=0;j<n;j++)
+#define PER(i,n) for(int i=n;i>0;i--)
+#define REP1(i,n) for(int i=1;i<=n;i++)
+#define REPJ1(j,n) for(int j=1;j<=n;j++)
+#define ull unsigned long long int
+#define ld long double
+#define prec(n) fixed<<setprecision(n)
+#define test ll t; cin>>t; while(t--)
+#define re return 0
+#define pb push_back()
+int main()
+{
+	IOS;
+//	test{
+		ll a,b,c,d,e,f;
+		cin>>a;
+		cin>>b;
+		cin>>c;
+		cin>>d;
+		cin>>e;
+		cin>>f;
+		ll p=0,q=0,r=0,s=0;
+		p=min(a,d);
+		q=min({b,c,d});
+		if(e>f){
+			if(p!=d){
+				d=d-p;
+				r=p*e+q*f;
+			}else if(p==d){
+				r=p*e;
+			}
+			cout<<r<<"\n";
+		}else if(f>e){
+			if(q!=d){
+				d=d-q;
+				r=q*f+d*e;
+			}else if(q==d){
+				r=q*f;
+			}
+			cout<<r<<"\n";
+		}
+//  }
+	re;
+}
